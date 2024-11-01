@@ -1,8 +1,20 @@
+#h1{
+    text-align: center;
+    color: white;
+    font-size: 75px;
+    text-decoration-line: underline;
+    margin-top: 0;
+}
+
+#h1:hover{
+    color: aqua;
+}
+
 body {
     font-family: Arial, sans-serif;
-    /*background-color: #f0f0f0;*/
-    color:  white;
+    color: white;
     display: flex;
+    flex-direction: column; 
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -10,7 +22,6 @@ body {
 }
 
 .container {
-    /*background-color: #fff;*/
     border-radius: 8px;
     padding: 20px;
     text-align: center;
@@ -27,7 +38,7 @@ body {
     margin-top: 10px;
 }
 
-#answer-button {
+#answer-button-yes {
     color: white;
     font-size: 20px;
     border: solid;
@@ -37,11 +48,43 @@ body {
     text-decoration: none;
 }
 
-.answer-button:hover {
-    background-color: #0056b3;
+#answer-button-no {
+    color: white;
+    font-size: 20px;
+    border: solid;
+    padding: 10px 15px;
+    margin: 0 5px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+#answer-button-play {
+    color: white;
+    font-size: 20px;
+    border: solid;
+    padding: 10px 15px;
+    margin: 0 5px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+#answer-button-yes:hover {
+    color: greenyellow;
+}
+
+#answer-button-no:hover {
+    color: red;
+}
+
+#answer-button-play:hover {
+    color: greenyellow;
 }
 
 *{
     background-color: rgb(42, 38, 38);
     color: white;
+}
+
+img{
+    border: solid 2px white;
 }
